@@ -1,8 +1,8 @@
 # One Channel One Routine
 
-| Exercise                  | Link to Exercise                       | Go Playground       |
+| Pattern | Code | Go Playground       |
 |---------------------------|----------------------------------------|---------------------|
-| One channel One routine   |[go](./main.go)                         | [play](https://go.dev/play/p/nRYYACFo4br) |
+| One channel One routine   |[go](./main.go)                         | [playground](https://go.dev/play/p/nRYYACFo4br) |
 
 ## Quick links
 1. [You will learn](#you-will-learn)
