@@ -5,12 +5,20 @@ import (
 	"time"
 )
 
+const (
+	treatPreparationTime = 1 * time.Second
+	treatServingTime     = 1 * time.Second
+)
+
+// treatsServer prepares treats and serves them one by one until numTreats are served.
 func treatsServer(bowl chan string, numTreats int) {
-	fmt.Printf("treatsServer: Preparing %d treats. \n\n", numTreats)
-	time.Sleep(1 * time.Second)
-	// Serve numTreats treats
+	// Prepare treats
+	fmt.Printf("treatsServer: Preparing %d treats...\n\n", numTreats)
+	time.Sleep(treatPreparationTime)
+
+	// Serve treats
 	for i := 1; i <= numTreats; i++ {
-		time.Sleep(1 * time.Second)
+		time.Sleep(treatServingTime)
 		fmt.Printf("treatsServer: Treat number %d served now.\n", i)
 		bowl <- fmt.Sprint("treat")
 	}
@@ -21,7 +29,7 @@ func main() {
 	numTreats := 5
 	fmt.Printf("main: Hey, it's your Doggo, give me %d treats.\n\n", numTreats)
 
-	// Serve treats
+	// Serve treats in a separate goroutine
 	go treatsServer(bowl, numTreats)
 
 	// Wait for treats
