@@ -1,6 +1,6 @@
 # One Channel One Routine
 
-| Exercise                  | Link to Exercise                       | Go Playground       |
+| Pattern | Code | Go Playground       |
 |---------------------------|----------------------------------------|---------------------|
 | One channel One routine   |[go](./main.go)                         | [playground](https://go.dev/play/p/nRYYACFo4br) |
 
