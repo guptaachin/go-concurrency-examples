@@ -7,11 +7,8 @@
 ## Quick links
 1. [You will learn](#you-will-learn)
 2. [You Know](#you-know)
-3. [Problem Statement](#problem-statement)
-4. [Tools Used](#tools-used)
-5. [Outline Diagram](#outline-diagram)
-6. [Try Yourself](#try-yourself)
-7. [Solution](#solution)
+3. [Tools Used](#tools-used)
+4. [Outline Diagram](#outline-diagram)
 
 
 ## You will learn
@@ -24,7 +21,7 @@ If not, please consider taking the [go tour](https://go.dev/tour/welcome/1).
 ## Tools Used
 - Golang
 You can skip set up and play around with provided code in Go Playground.  
-For a localsetup, [check this](https://go.dev/doc/install)
+For a local setup, [check this](https://go.dev/doc/install)
 
 ## Outline Diagram
 
