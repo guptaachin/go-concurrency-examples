@@ -5,26 +5,29 @@ import (
 	"time"
 )
 
-func serve_food(bowl chan string) {
-	for i := 0; ; i++ {
-		fmt.Println("Serving food in 1 sec...")
+func treatsServer(bowl chan string, numTreats int) {
+	fmt.Printf("treatsServer: Preparing %d treats. \n\n", numTreats)
+	time.Sleep(1 * time.Second)
+	// Serve numTreats treats
+	for i := 1; i <= numTreats; i++ {
 		time.Sleep(1 * time.Second)
+		fmt.Printf("treatsServer: Treat number %d served now.\n", i)
 		bowl <- fmt.Sprint("treat")
-
 	}
 }
 
 func main() {
 	bowl := make(chan string)
-	fmt.Println("Hey, give me some treats.")
+	numTreats := 5
+	fmt.Printf("main: Hey, it's your Doggo, give me %d treats.\n\n", numTreats)
 
-	// Serve food
-	go serve_food(bowl)
+	// Serve treats
+	go treatsServer(bowl, numTreats)
 
-	// Consume food
-	for j := 0; j < 5; j++ {
-		fmt.Printf("I got %d %ss. Woof!\n", j+1, <-bowl)
+	// Wait for treats
+	for j := 1; j <= numTreats; j++ {
+		fmt.Printf("main: I got %d %ss. Woof!\n\n", j, <-bowl)
 	}
 
-	fmt.Println("Bark later, alligator!")
+	fmt.Println("main: Bark later, alligator!")
 }
