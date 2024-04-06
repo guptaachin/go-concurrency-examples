@@ -1,2 +1,6 @@
 # go-concurrency-examples
-Informational repo with explained examples of simple go concurrency patterns
+
+| Sno | Exercise                  | Link to Exercise                       | Go Playground       |
+|-----|---------------------------|----------------------------------------|---------------------|
+| 1   | One channel One routine   |[go](./one-channel-one-routine/main.go) | [play](https://go.dev/play/p/nRYYACFo4br) |
+
