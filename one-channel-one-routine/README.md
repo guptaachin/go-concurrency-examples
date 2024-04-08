@@ -23,6 +23,3 @@ If not, please consider taking the [go tour](https://go.dev/tour/welcome/1).
 You can skip set up and play around with provided code in Go Playground.  
 For a local setup, [check this](https://go.dev/doc/install)
 
-## Outline Diagram
-
-
