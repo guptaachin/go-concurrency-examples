@@ -26,7 +26,7 @@ For a local setup, [check this](https://go.dev/doc/install)
 
 ## Run code
 Here are the commands to run this code  
-0. Clone the git repo.
-1. `cd go-concurrency-examples/one-channel-one-routine` 
-2. To run simple version - `go run simple.go` 
-3. To run advanced version - `go run advanced.go` 
+1. Clone the [git repo](https://github.com/guptaachin/go-concurrency-examples).
+2. `cd go-concurrency-examples/one-channel-one-routine` 
+3. To run simple version - `go run simple.go` 
+4. To run advanced version - `go run advanced.go` 
