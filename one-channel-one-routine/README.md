@@ -2,8 +2,8 @@
 
 | Pattern | Code | Go Playground       |
 |---------------------------|----------------------------------------|---------------------|
-| simple |[go](./simple.go)                         | [playground](https://go.dev/play/p/nBGfF9gJc4Y) |
-| advanced |[go](./advanced/advanced.go)                         | [playground](https://go.dev/play/p/nsRLn1KGUaM) |
+| simple |[go](./simple.go)                         | [playground](https://go.dev/play/p/0D6YUf_MwLH) |
+| advanced |[go](./advanced.go)                         | [playground](https://go.dev/play/p/nsRLn1KGUaM) |
 
 ## Quick links
 1. [You will learn](#you-will-learn)
