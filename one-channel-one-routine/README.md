@@ -2,7 +2,8 @@
 
 | Pattern | Code | Go Playground       |
 |---------------------------|----------------------------------------|---------------------|
-| One channel One routine   |[go](./main.go)                         | [playground](https://go.dev/play/p/nRYYACFo4br) |
+| simple |[go](./simple.go)                         | [playground](https://go.dev/play/p/nBGfF9gJc4Y) |
+| advanced |[go](./advanced/advanced.go)                         | [playground](https://go.dev/play/p/nsRLn1KGUaM) |
 
 ## Quick links
 1. [You will learn](#you-will-learn)
@@ -20,6 +21,6 @@ If not, please consider taking the [go tour](https://go.dev/tour/welcome/1).
 
 ## Tools Used
 - Golang
-You can skip set up and play around with provided code in Go Playground.  
+It is strongly encouraged to start working with go-playground.
 For a local setup, [check this](https://go.dev/doc/install)
 
