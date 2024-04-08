@@ -20,8 +20,8 @@ This exercise assumes you have basic understanding of golang syntax.
 If not, please consider taking the [go tour](https://go.dev/tour/welcome/1).
 
 ## Tools Used
-- Golang
-It is strongly encouraged to start working with go-playground.
+- Golang  
+It is strongly encouraged to start working with [go-playground](https://go.dev/play/).  
 For a local setup, [check this](https://go.dev/doc/install)
 
 ## Run code
