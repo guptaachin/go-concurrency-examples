@@ -7,11 +7,12 @@ import (
 
 // treatsServer prepares treat and serves it
 func treatsServer(bowl chan string) {
-	// Serve treats
 	fmt.Printf("treatsServer: Preparing treat in 3 secs...\n")
 	time.Sleep(3 * time.Second)
 	fmt.Printf("treatsServer: Serving treat now.\n\n")
 	time.Sleep(1 * time.Second)
+
+	// Serve treat
 	bowl <- fmt.Sprint("treat")
 }
 
